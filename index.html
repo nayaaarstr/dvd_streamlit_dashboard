@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVD Rental Dashboard</title>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+        body {
+            background-color: #0f172a;
+            color: white;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        input {
+            padding: 10px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎬 DVD Rental Analytics Dashboard</h1>
+
+    <div class="card">
+        <h2>Total Revenue</h2>
+        <p id="revenue">$0</p>
+    </div>
+
+    <div id="revenueChart"></div>
+
+    <div class="card">
+        <h2>AI Assistant</h2>
+
+        <input type="text" id="prompt" placeholder="Ask AI something...">
+
+        <button onclick="askAI()">
+            Ask AI
+        </button>
+
+        <p id="aiResponse"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
