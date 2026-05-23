@@ -1,19 +1,29 @@
-# dvd_streamlit_dashboard
-DVD Rental Analytics Dashboard Project
 # DVD Rental Analytics Dashboard
 
-This project uses Streamlit, PostgreSQL, Machine Learning, and AI features to analyze DVD rental business performance.
+## Overview
+This project is a web-based dashboard designed to analyze DVD rental business data interactively and visually.  
+The dashboard helps users monitor rental activities, customer behavior, revenue trends, and movie category performance.
 
-Features:
-- Overview Dashboard
-- Actor Analysis
-- Country Analysis
+## Technologies Used
+- SQL
+- HTML
+- JavaScript
+
+## Features
 - Rental Frequency Analysis
-- Movie Success Prediction
+- Revenue Analysis
+- Customer Insights
+- Movie Category Analysis
+- Interactive Data Visualization
+- Real-time Database Integration
 
-Technologies:
-- Python
-- Streamlit
-- PostgreSQL
-- Plotly
-- Scikit Learn
+## Dataset
+This project uses the DVD Rental dataset containing:
+- Customer data
+- Rental transactions
+- Payment information
+- Movie categories
+- Film details
+
+## Purpose
+The purpose of this dashboard is to simplify business data analysis through interactive visualizations and automated reporting.
